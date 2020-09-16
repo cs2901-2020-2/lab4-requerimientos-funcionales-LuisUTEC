@@ -27,6 +27,7 @@ public class DNASequencer {
                     break;
                 }
             }
+
         }
         return cadenatotal;
         //return "AGATTACAGA";
