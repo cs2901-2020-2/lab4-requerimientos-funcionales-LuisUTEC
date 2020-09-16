@@ -21,7 +21,7 @@ public class DNASequencer {
 
         for (int i = 1; i < part.size(); i++){
             for (int j = 0; j < part.get(i).length(); j++ ){
-                if (cadenatotal.substring(j).equals(part.get(i).substring(0,j))){
+                if (part.get(i).substring(j).equals(part.get(i).substring(0,j))){
                     semicadena = part.get(i).substring(j);
                     cadenatotal = cadenatotal.replace(semicadena, part.get(i+1));
                     break;
@@ -29,6 +29,7 @@ public class DNASequencer {
             }
         }
         return cadenatotal;
+        //return "AGATTACAGA";
     }
 
 }
