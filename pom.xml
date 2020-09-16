@@ -9,9 +9,12 @@
     <version>0.1</version>
 
     <properties>
+        <sonar.projectKey>cs2901-2020-2_lab4-requerimientos-funcionales-LuisUTEC</sonar.projectKey>
         <sonar.projectKey>cs2901-2020-2_lab4</sonar.projectKey>
         <sonar.organization>cs2901-2020-2</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.login>0dbda3d77c74d2abe9c24517db56f0c58a4d5d10</sonar.login>
+
     </properties>
 
     <dependencies>
@@ -53,7 +56,11 @@
                         </goals>
                     </execution>
                 </executions>
+
             </plugin>
+
+
+
         </plugins>
     </build>
 
