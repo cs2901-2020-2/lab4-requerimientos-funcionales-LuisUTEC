@@ -11,17 +11,14 @@ public class  DNASequencer {
     }
 
     public String calculate(List<String> part){
+        String semicadena = "";
+        
         for (int i = 0; i < part.size(); i++){
             for (int j = 0; j < part.get(i).length(); j++ ){
-                for (int k = 0; k < part.get(i+1).length(); k++){
-                    if ((part.get(i).substring(j).equals(part.get(i+1).substring(k)))){
-                        
-
-                    }else if (part.get(i).substring(0,j).equals(part.get(i+1).substring(0,k))){
-
-                    }
+                if ((part.get(i).substring(j).equals(part.get(i+1).substring(0,j))){
+                    semicadena = part.get(i).substring(j);
+                    break;
                 }
-
             }
         }
         return "AGATTACAGA";
