@@ -22,7 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e932e8cd-2fe8-49c4-b205-1ad0953cc584" name="Default" comment="." />
+    <list default="true" id="e932e8cd-2fe8-49c4-b205-1ad0953cc584" name="Default" comment=".">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,6 +76,17 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -141,7 +154,8 @@
       <updated>1600228064189</updated>
       <workItem from="1600228065558" duration="5421000" />
       <workItem from="1600265897625" duration="10969000" />
-      <workItem from="1600349261114" duration="2746000" />
+      <workItem from="1600349261114" duration="3739000" />
+      <workItem from="1600353327158" duration="1295000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1600352014831</created>
@@ -181,22 +195,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="412" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1600268881895" />
-    <state width="1323" height="321" key="GridCell.Tab.0.bottom" timestamp="1600351815872">
+    <state width="1323" height="321" key="GridCell.Tab.0.bottom" timestamp="1600353022166">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="321" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600351815872" />
-    <state width="1323" height="321" key="GridCell.Tab.0.center" timestamp="1600351815872">
+    <state width="1323" height="321" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600353022166" />
+    <state width="1323" height="321" key="GridCell.Tab.0.center" timestamp="1600353022166">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="321" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600351815872" />
-    <state width="1323" height="321" key="GridCell.Tab.0.left" timestamp="1600351815872">
+    <state width="1323" height="321" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600353022166" />
+    <state width="1323" height="321" key="GridCell.Tab.0.left" timestamp="1600353022165">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="321" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600351815872" />
-    <state width="1323" height="321" key="GridCell.Tab.0.right" timestamp="1600351815872">
+    <state width="1323" height="321" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600353022165" />
+    <state width="1323" height="321" key="GridCell.Tab.0.right" timestamp="1600353022166">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="321" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600351815872" />
+    <state width="1323" height="321" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600353022166" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1600278872461">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
