@@ -15,16 +15,19 @@ public class DNASequencer {
 
     }
 
-    public String calculate(List<String> part){
-        String semicadena = "";
-        String cadenatotal = part.get(0);
+    public String calculate(List<String> parts) throws Exception{
+        if(parts.size() > 160000){
+            throw new Exception("Too many subseqs");
+        }
+        String semicadena;
+        String cadenatotal = parts.get(0);
 
-        for (int i = 1; i < part.size(); i++){
-            for (int j = 0; j < part.get(i).length(); j++ ){
-                if (part.get(i).substring(j).equals(part.get(i).substring(0,j))){
-                    semicadena = part.get(i).substring(j);
-                    cadenatotal = cadenatotal.replace(semicadena, part.get(i+1));
-                    break;
+        for (int i = 0; i+1 < parts.size(); i++){
+            for (int j = 0; j < parts.get(i).length(); j++ ){
+                if (parts.get(i).substring(j).equals(parts.get(i + 1).substring(0, j))){
+                    semicadena = parts.get(i).substring(j);
+                    cadenatotal = cadenatotal.replace(semicadena, "");
+                    cadenatotal = cadenatotal + parts.get(i+1);
                 }
             }
 
